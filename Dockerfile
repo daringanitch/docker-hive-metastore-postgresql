@@ -2,8 +2,7 @@ FROM postgres:9.6.7
 
 MAINTAINER "Darin Ganitch <dganitch@gmail.com>"
 
-RUN mkdir hive
-RUN ls -la /hive
+
 
 ADD hive-schema-3.1.0.postgres.sql  hive-schema-3.1.0.postgres.sql 
 
