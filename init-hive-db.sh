@@ -9,7 +9,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" <<-EOSQL
   \c metastore
 
   \i hive-schema-2.3.0.postgres.sql
-  \i hive-txn-schema-2.3.0.postgres.sql
+  
 
   \pset tuples_only
   \o /tmp/grant-privs
